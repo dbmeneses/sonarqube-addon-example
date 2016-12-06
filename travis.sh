@@ -15,3 +15,4 @@ build_wrapper_path=$(which build-wrapper-linux-x86-64)
     build-wrapper-linux-x86-64 --out-dir bw-output make all
  fi
 
+echo "Done"
