@@ -3,6 +3,7 @@
 set -euo pipefail
 set +x
 java -version
+echo "SONARQUBE_ADDON_HASH: $SONARQUBE_ADDON_HASH"
 echo "PATH: $PATH"
 echo "JAVA_HOME: $JAVA_HOME"
 export JAVA_HOME=`dirname $(dirname $(which java))`
